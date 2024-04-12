@@ -56,12 +56,14 @@
             text-align: center;
 #            font-size: 24px; /* Increase font size */
         }
-        .map-content span {
-            color: #4a80f5; /* Change color of "Contact us" */
-            font-weight: 700; /* Add font-weight property */
-    	    font-size: 28px; /* Increase font size */
-    	    margin-bottom: 20px; /* Add space below the text */ 
-       }
+.map-content span {
+    color: #4a80f5; /* Change color of "Contact us" */
+    font-weight: 700; /* Add font-weight property */
+    font-size: 28px; /* Increase font size */
+    display: block; /* Ensures the span behaves like a block element, making margin effective */
+    margin-bottom: 20px; /* Add space below the text */
+    padding-bottom: 10px; /* Extra padding for visual spacing */
+}
         .website-content {
             text-align: center;
             margin-bottom: 60px;
@@ -76,7 +78,7 @@
 
 <header>
     <img src="photo2.jpg" alt="Office with people working" class="header-image">
-    <h1>Online Retail of Name Brand Products</h1>
+    <h1>Online Retailer of Name Brand Products</h1>
 </header>
 
 <!-- Your website content -->
