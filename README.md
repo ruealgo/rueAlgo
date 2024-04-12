@@ -58,9 +58,10 @@
         }
         .map-content span {
             color: #4a80f5; /* Change color of "Contact us" */
-            font-weight: 800; /* Add font-weight property */
+            font-weight: 700; /* Add font-weight property */
     	    font-size: 28px; /* Increase font size */
-        }
+    	    margin-bottom: 20px; /* Add space below the text */ 
+       }
         .website-content {
             text-align: center;
             margin-bottom: 60px;
